@@ -25,9 +25,14 @@ class InformationViewController: UIViewController {
     }
     
     @IBAction func pushTheButton() {
+        if textLabel.isHidden == true && imagine.isHidden == true {
         showAlert(with: "Attention!", and: "Very serious Person.")
         textLabel.isHidden = false
         imagine.isHidden = false
+        } else if textLabel.isHidden == false && imagine.isHidden == false {
+            textLabel.isHidden = true
+            imagine.isHidden = true
+        }
     }
     
     private func showAlert(with title: String, and message: String) {

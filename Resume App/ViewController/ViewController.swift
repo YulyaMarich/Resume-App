@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         showAlert(with: "Oops!", and: "Your Password - \(user.password).")
     }
     
-    @IBAction func pressLogIn(segue: UIStoryboardSegue) {
+    @IBAction func pressLogOut(segue: UIStoryboardSegue) {
         userNameField.text = ""
         passwordField.text = ""
     }
