@@ -13,6 +13,9 @@
 		A343D97A26E6706600180B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A343D97826E6706600180B7B /* Main.storyboard */; };
 		A343D97C26E6706700180B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A343D97B26E6706700180B7B /* Assets.xcassets */; };
 		A343D97F26E6706700180B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A343D97D26E6706700180B7B /* LaunchScreen.storyboard */; };
+		A343D98726E6A37600180B7B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A343D98626E6A37600180B7B /* WelcomeViewController.swift */; };
+		A343D98926E6A4C800180B7B /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A343D98826E6A4C800180B7B /* InformationViewController.swift */; };
+		A358B6F226E73E9E001523B0 /* UserNameAndPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358B6F126E73E9E001523B0 /* UserNameAndPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A343D97B26E6706700180B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A343D97E26E6706700180B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A343D98026E6706700180B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A343D98626E6A37600180B7B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A343D98826E6A4C800180B7B /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		A358B6F126E73E9E001523B0 /* UserNameAndPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameAndPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		A343D97126E6706600180B7B /* Resume App */ = {
 			isa = PBXGroup;
 			children = (
-				A343D97226E6706600180B7B /* AppDelegate.swift */,
+				A358B6F026E73E66001523B0 /* Model */,
+				A358B6EF26E73B6E001523B0 /* Storyboard */,
+				A358B6EE26E73B49001523B0 /* ViewController */,
 				A343D97426E6706600180B7B /* SceneDelegate.swift */,
-				A343D97626E6706600180B7B /* ViewController.swift */,
-				A343D97826E6706600180B7B /* Main.storyboard */,
+				A343D97226E6706600180B7B /* AppDelegate.swift */,
 				A343D97B26E6706700180B7B /* Assets.xcassets */,
-				A343D97D26E6706700180B7B /* LaunchScreen.storyboard */,
 				A343D98026E6706700180B7B /* Info.plist */,
 			);
 			path = "Resume App";
+			sourceTree = "<group>";
+		};
+		A358B6EE26E73B49001523B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A343D97626E6706600180B7B /* ViewController.swift */,
+				A343D98626E6A37600180B7B /* WelcomeViewController.swift */,
+				A343D98826E6A4C800180B7B /* InformationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A358B6EF26E73B6E001523B0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A343D97826E6706600180B7B /* Main.storyboard */,
+				A343D97D26E6706700180B7B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A358B6F026E73E66001523B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A358B6F126E73E9E001523B0 /* UserNameAndPassword.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A358B6F226E73E9E001523B0 /* UserNameAndPassword.swift in Sources */,
 				A343D97726E6706600180B7B /* ViewController.swift in Sources */,
+				A343D98726E6A37600180B7B /* WelcomeViewController.swift in Sources */,
 				A343D97326E6706600180B7B /* AppDelegate.swift in Sources */,
 				A343D97526E6706600180B7B /* SceneDelegate.swift in Sources */,
+				A343D98926E6A4C800180B7B /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
