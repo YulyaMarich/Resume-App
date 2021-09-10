@@ -123,7 +123,7 @@
                                 </state>
                                 <connections>
                                     <action selector="pressLogOut" destination="cZM-nY-rhn" eventType="touchUpInside" id="T8F-ie-Nch"/>
-                                    <segue destination="kGz-Xd-H4i" kind="unwind" unwindAction="pressLogInSegue:" id="pvR-FM-8dq"/>
+                                    <segue destination="kGz-Xd-H4i" kind="unwind" unwindAction="pressLogOutWithSegue:" id="Uea-0c-oFf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -186,7 +186,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrG-GK-alf">
                                 <rect key="frame" x="20" y="373" width="374" height="370"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Good time of day! My name is Leonel. Unfortunetly, I live with people, which call me Leo, Levusia, Leveniatko or Bullochka. It makes me crazy. I try not to respond, but when I am hungy I have to do this. As for my friends, I am very lonely. Regretably, I lost two of my bestfriends and now I am friends only with Chappie and one tall man, whom I rarely see, but he has warm handles and comfortable knees. If you read this, please, come back. In fact, I'm not so sentimental, I always leave my feelings and emotions behind, except when I see vitamins or a laser. Any way, soon my milk will cool down, so I have to run. P.S. I HATE COLD MILK!</string>
+                                <mutableString key="text">Good time of day! My name is Leonel. Unfortunetly, I live with people, that call me Leo, Levusia, Leveniatko or Bullochka. It makes me crazy. I try not to respond, but when I am hungy I have to do this. As for my friends, I am very lonely. Regretably, I lost two of my bestfriends and now I am friends only with Chappie and one tall man, whom I rarely see, but he has warm handles and comfortable knees. If you read this, please, come back. In fact, I'm not so sentimental, I always leave my feelings and emotions behind, except when I see vitamins or a laser. Any way, soon my milk will cool down, so I have to run. P.S. I HATE COLD MILK!</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
